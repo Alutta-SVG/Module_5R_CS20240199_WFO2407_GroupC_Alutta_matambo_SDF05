@@ -50,5 +50,33 @@ p {
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
 }
+.btn-1 {
+    background:hsl(280, 99%, 56%);
+    border:none;
+    z-index: 1;
+}
+.btn-1:after {
+    position:absolute;
+    content:"";
+    width:0;
+    height:100%;
+    top:0;
+    right:0;
+    z-index: -1;
+    background-color: darkmagenta;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 2px 0px rgb(139,0,139), 7px 7px 20px 0px rgba(0, 0, 0, .1),4px 4px 5px 0px rgba(0, 0, 0, .1);
+    transition:all 0.3s ease;
+}
+.btn-1:hover {
+    color:#fff
+}
+.btn-1:hover:after {
+    left:0;
+    width:100%
+}
+.btn-1:active {
+    top:2px
+}
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
