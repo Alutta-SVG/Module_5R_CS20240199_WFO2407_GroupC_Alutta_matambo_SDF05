@@ -135,7 +135,7 @@ p {
 }
 .btn-3:hover:after {
     background:rgb(168,50,121);
-    background: linear-gradient(0deg, rgba(white) 0% rgb(139,50,168,0.897)100%);
+    background: linear-gradient(0deg, rgba(166,49,120) 0% rgb(168,50,121)100%);
     -webkit-transform:scale(1);
     transform: scale(1);
 }
