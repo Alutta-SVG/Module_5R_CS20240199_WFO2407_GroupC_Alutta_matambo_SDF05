@@ -108,5 +108,35 @@ p {
 .btn-2:active {
     top:2px;
 }
-
+.btn-3 {
+   background: rgb(168,50,121);
+   background: linear-gradient(0deg, rgb(168,50,121))0%,rgba(49,110,244,1)100%); 
+   color:#fff;
+   border: none;
+   transition:all 0,3s ease;
+   overflow:hidden;
+}
+.btn-3:after {
+    position:absolute;
+    content:" ";
+    top:0;
+    left:0;
+    z-index: -1;
+    width:100%;
+    height:100%;
+    transition:all 0,3s ease;
+    -webkit-transform: scale(.1);
+    transform: scale(.1);
+}
+.bn-3:hover {
+    color:#fff;
+    border:none;
+    background:transparent;
+}
+.btn-3:hover:after {
+    background:rgb(168,50,121);
+    background: linear-gradient(0deg, rgba(white) 0% rgb(139,50,168,0.897)100%);
+    -webkit-transform:scale(1);
+    transform: scale(1);
+}
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
