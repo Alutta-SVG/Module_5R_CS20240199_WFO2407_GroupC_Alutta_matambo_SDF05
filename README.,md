@@ -1,0 +1,4 @@
+For my custom buttons i decided to style them using transitions. To all of my buttons i added 2/3 colors that can be used during the transitio.
+These colors include the box shadow colors and the colors that the buttons change to or add on when hovered over.
+I then added the hover before and after pseudos that tell the buttons to change color and shape when hovered over.
+The challenges i faced with this project was mostly with the colors, i struggled to get the exact color combinations i wanted.
